@@ -89,8 +89,8 @@
       "scripts/common/sshd.sh",
       "scripts/centos/locale.sh",
       "scripts/centos-7.4/cleanup.sh",
-      "scripts/common/minimize.sh"
-      "scripts/centos/allow_root.sh",
+      "scripts/common/minimize.sh",
+      "scripts/centos/allow_root.sh"
     ]
   }],
   "post-processors": [{
