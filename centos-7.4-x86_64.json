@@ -90,6 +90,7 @@
       "scripts/centos/locale.sh",
       "scripts/centos-7.4/cleanup.sh",
       "scripts/common/minimize.sh"
+      "scripts/centos/allow_root.sh",
     ]
   }],
   "post-processors": [{
@@ -100,7 +101,7 @@
   "variables": {
     "compression_level": "6",
     "cpus": "1",
-    "disk_size": "40000",
+    "disk_size": "400000",
     "headless": "false",
     "iso_checksum": "937bf0a7b0932817f84f7230f15ed88911bbbd85c0c958680792b7f8d8f9c1a9",
     "iso_checksum_type": "sha256",
